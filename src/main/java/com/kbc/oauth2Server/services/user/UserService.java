@@ -1,6 +1,6 @@
 package com.kbc.oauth2Server.services.user;
 
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
+import com.kbc.oauth2Server.model.domain.User;
 
 import java.util.List;
 

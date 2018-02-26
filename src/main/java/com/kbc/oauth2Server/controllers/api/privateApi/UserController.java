@@ -1,10 +1,10 @@
 package com.kbc.oauth2Server.controllers.api.privateApi;
 
 import com.kbc.oauth2Server.controllers.api.PrivateApiController;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
-import com.kbc.oauth2Server.integration.oauth2.model.request.CreateUserRequest;
-import com.kbc.oauth2Server.integration.oauth2.model.response.UserResponse;
-import com.kbc.oauth2Server.integration.oauth2.model.response.UsersResponse;
+import com.kbc.oauth2Server.model.domain.User;
+import com.kbc.oauth2Server.model.request.CreateUserRequest;
+import com.kbc.oauth2Server.model.response.UserResponse;
+import com.kbc.oauth2Server.model.response.UsersResponse;
 import com.kbc.oauth2Server.services.user.UserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

@@ -1,6 +1,6 @@
 package com.kbc.oauth2Server.services.city;
 
-import com.kbc.oauth2Server.integration.oauth2.model.domain.City;
+import com.kbc.oauth2Server.model.domain.City;
 
 import java.util.List;
 

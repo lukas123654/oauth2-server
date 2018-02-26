@@ -2,7 +2,7 @@ package com.kbc.oauth2Server.controllers.api.publicApi;
 
 import com.kbc.oauth2Server.controllers.api.ApiController;
 import com.kbc.oauth2Server.controllers.api.PublicApiController;
-import com.kbc.oauth2Server.integration.oauth2.model.response.PingResponse;
+import com.kbc.oauth2Server.model.response.PingResponse;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

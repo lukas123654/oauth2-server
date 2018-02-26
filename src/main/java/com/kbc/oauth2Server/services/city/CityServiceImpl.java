@@ -1,8 +1,8 @@
 package com.kbc.oauth2Server.services.city;
 
 import com.kbc.oauth2Server.exceptions.JpaCreateException;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.City;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.CityRepository;
+import com.kbc.oauth2Server.model.domain.City;
+import com.kbc.oauth2Server.model.repository.CityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;

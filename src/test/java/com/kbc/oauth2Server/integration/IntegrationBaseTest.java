@@ -1,11 +1,11 @@
 package com.kbc.oauth2Server.integration;
 
 import com.kbc.oauth2Server.integration.model.Oauth2Constants;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.City;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.Role;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.CityRepository;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.UserRepository;
+import com.kbc.oauth2Server.model.domain.City;
+import com.kbc.oauth2Server.model.domain.Role;
+import com.kbc.oauth2Server.model.domain.User;
+import com.kbc.oauth2Server.model.repository.CityRepository;
+import com.kbc.oauth2Server.model.repository.UserRepository;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.runner.RunWith;

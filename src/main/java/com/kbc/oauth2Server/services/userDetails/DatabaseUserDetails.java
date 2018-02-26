@@ -1,7 +1,7 @@
 package com.kbc.oauth2Server.services.userDetails;
 
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.UserRepository;
+import com.kbc.oauth2Server.model.domain.User;
+import com.kbc.oauth2Server.model.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

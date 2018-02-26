@@ -1,7 +1,7 @@
 package com.kbc.oauth2Server.controllers.api;
 
-import com.kbc.oauth2Server.integration.oauth2.model.backend.CurrentlyLoggedUser;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
+import com.kbc.oauth2Server.model.backend.CurrentlyLoggedUser;
+import com.kbc.oauth2Server.model.domain.User;
 import com.kbc.oauth2Server.services.user.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

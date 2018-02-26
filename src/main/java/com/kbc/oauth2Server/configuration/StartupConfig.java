@@ -1,11 +1,11 @@
 package com.kbc.oauth2Server.configuration;
 
-import com.kbc.oauth2Server.integration.oauth2.model.domain.City;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.Role;
-import com.kbc.oauth2Server.integration.oauth2.model.domain.User;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.CityRepository;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.RoleRepository;
-import com.kbc.oauth2Server.integration.oauth2.model.repository.UserRepository;
+import com.kbc.oauth2Server.model.domain.City;
+import com.kbc.oauth2Server.model.domain.Role;
+import com.kbc.oauth2Server.model.domain.User;
+import com.kbc.oauth2Server.model.repository.CityRepository;
+import com.kbc.oauth2Server.model.repository.RoleRepository;
+import com.kbc.oauth2Server.model.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

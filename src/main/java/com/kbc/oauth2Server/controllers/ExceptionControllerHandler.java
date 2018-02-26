@@ -3,7 +3,7 @@ package com.kbc.oauth2Server.controllers;
 import com.kbc.oauth2Server.exceptions.DeleteAdminException;
 import com.kbc.oauth2Server.exceptions.JpaCreateException;
 import com.kbc.oauth2Server.exceptions.JpaFindException;
-import com.kbc.oauth2Server.integration.oauth2.model.response.ErrorResponse;
+import com.kbc.oauth2Server.model.response.ErrorResponse;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.slf4j.Logger;

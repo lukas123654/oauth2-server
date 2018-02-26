@@ -2,7 +2,7 @@ package com.kbc.oauth2Server.controllers.api.publicApi;
 
 import com.kbc.oauth2Server.controllers.api.ApiController;
 import com.kbc.oauth2Server.controllers.api.PublicApiController;
-import com.kbc.oauth2Server.integration.oauth2.model.request.CreateUserRequest;
+import com.kbc.oauth2Server.model.request.CreateUserRequest;
 import com.kbc.oauth2Server.services.user.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
