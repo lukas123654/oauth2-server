@@ -30,6 +30,7 @@ public class DatabaseUserDetails implements UserDetailsService {
         List<GrantedAuthority> authorities = new ArrayList<>();
         user.getRoles().stream().forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getRoleName())));
 
-        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), authorities);
+        // this is just for a refresh token (custom authentication provider used to authenticate), therefore, no password
+        return new org.springframework.security.core.userdetails.User(user.getUsername(), "", authorities);
     }
 }
